@@ -1,0 +1,1240 @@
+@font-face {
+        font-family: roboto-regular;
+        src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+        font-family: roboto-medium;
+        src: url(..//fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+        font-family: roboto-light;
+        src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+        font-family: segoe;
+        src: url(../fonts/segoeuisl.ttf);
+}
+
+@font-face {
+        font-family: roboto-black;
+        src: url(../fonts/Roboto-Black.ttf);
+}
+
+.header {
+        height: 85px;
+        background-color: #ffffff;
+        display: flex;
+        padding: 0px 5% 0px 5%;
+        justify-content: space-between;
+        border-radius: 0px 0px 40px 40px;
+}
+
+
+.logo {
+        width: 8%;
+        display: flex;
+        height: 65px;
+        background-color: #ffffff;
+}
+
+.fecare {
+        width: 100%;
+
+}
+
+
+.navigation {
+        width:50%;
+        height: 60px;
+        background-color: #ffffff;
+}
+
+.nav {
+        padding-top: 12px;
+        list-style: none;
+        display: flex;
+        font-family: roboto-regular;
+        justify-content: space-evenly;
+}
+
+.Follow {
+        color: #ffffff;
+        font-family: roboto-regular;
+        height: auto;
+}
+
+.footericonbox {
+        display: flex;
+        align-items: center;
+        gap: 13%;
+
+}
+
+.search {
+        width: 15%;
+        height: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: flex-end;
+}
+
+
+.iconfooterimg {
+        width: 31px;
+}
+
+.text {
+        width: 73%;
+        height: 15px;
+        border-right: none;
+}
+
+.menubar {
+        display: none;
+}
+
+.button {
+        font-size: 26px;
+        border: none;
+        font-weight: 600;
+        background: none;
+}
+
+
+.banner {
+        width: 100%;
+        height: auto;
+        background-image: linear-gradient(#35A9C0, #22c1d5);
+}
+
+.mainboxbanner {
+        height: auto;
+        display: flex;
+        overflow: hidden;
+        align-items: center;
+        padding-left: 5%;
+}
+
+.box {
+        gap: 39px;
+        display: flex;
+        width: 60%;
+        flex-direction: column;
+}
+
+.box1 {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 50px;
+        gap: 20px;
+        box-sizing: border-box;
+        top: 170px;
+        border-radius: 30px;
+        background-image: linear-gradient(#35A9C0, #22c1d5);
+}
+
+.textbox {
+
+        font-family: roboto-black;
+        font-size: 36px;
+        display: flex;
+        color: #ffffff;
+}
+
+.picturebox {
+        width: 42%;
+        position: relative;
+        height: 100%;
+
+}
+
+.pictureboximg {
+        width: 100%;
+        min-width: 100%;
+        /* position: absolute; */
+        /* padding-left: 30px; */
+        position: relative;
+        bottom: -4px;
+        height: -webkit-fill-available;
+}
+
+.boxer {
+        width: 40%;
+        height: 51px;
+        appearance: none;
+        border-radius: 0px 30px 0px 30px;
+        text-align: center;
+        color: #a0a0a0;
+}
+
+.finddoctor {
+        width: 34%;
+        height: 48px;
+        background-color: rgb(250, 187, 69);
+        margin-left: 27px;
+        border: none;
+        border-radius: 7px;
+        color: #ffffff;
+}
+
+.bodybox {
+        height: auto;
+        /* background-color: aquamarine; */
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 60px;
+}
+
+.solution {
+        height: auto;
+        border-radius: 30px;
+        display: flex;
+        padding: 25PX;
+        flex-direction: column;
+        background-image: linear-gradient(#35A9C0, #22c1d5);
+        justify-content: space-evenly;
+}
+
+
+.stephead {
+        height: auto;
+        font-family: roboto-light;
+        text-align: center;
+        color: #ffffff;
+}
+
+.bestdoctor {
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.bestdoctor1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.iconround {
+        width: 98px;
+        height: 98px;
+        background-color: #45e5f5;
+        border-radius: 80px;
+        display: flex;
+        justify-content: center;
+}
+
+.textt {
+        padding: 10px;
+        height: auto;
+        font-family: roboto-light;
+        text-align: center;
+        color: #ffffff;
+
+}
+
+.solution1 {
+        height: auto;
+        margin-top: 90px;
+        display: flex;
+        padding-left: 5%;
+        padding-right: 5%;
+}
+
+.texter {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+}
+
+.about {
+        width: 90%;
+        height: auto;
+        font-family: roboto-light;
+
+}
+
+.aboutfecare {
+        font-family: roboto-regular;
+}
+
+.readmore {
+        width: 100px;
+        font-family: roboto-regular;
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 20px;
+        background-color: #0398ee;
+        color: #ffffff;
+        border: none;
+}
+
+.text1 {
+        width: 50%;
+        /* background-color:#d95d9b; */
+        display: flex;
+        position: relative;
+}
+
+
+.imgbox {
+        width: 94%;
+        z-index: 3;
+        overflow: hidden;
+
+}
+
+.imgbox1 {
+        width: 100%;
+}
+
+.outerbox {
+        width: 37%;
+        height: 550px;
+        top: -36px;
+        right: 14px;
+        position: absolute;
+        background-image: linear-gradient(#35A9C0, #22c1d5);
+
+}
+
+.iconimg {
+        width: 40%;
+}
+
+.iconimg1 {
+        width: 73%;
+}
+
+.iconimg2 {
+        width: 73%;
+        padding-left: 10px;
+        padding-top: 15px;
+}
+
+.speciality {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 5% 0 5%;
+        gap: 30px;
+}
+
+.line {
+        width: 90%;
+        margin-top: 90px;
+}
+
+.speciality1 {
+        height: auto;
+        font-family: roboto-light;
+        text-align: center;
+        font-size: 25px;
+
+}
+
+.specialitybox {
+        height: auto;
+        display: grid;
+        gap: 2%;
+        grid-template-columns: 32% 32% 32%;
+
+}
+
+.special {
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(#35A9C0, #22c1d5);
+        align-items: center;
+        padding: 15px;
+}
+
+.specialityhead {
+        height: auto;
+        color: #ffffff;
+        font-family: roboto-light;
+        text-align: center;
+}
+
+.services2 {
+        color: #ffffff;
+        font-family: roboto-light;
+        text-align: center;
+}
+.iconspeciality {
+        width: 20%;
+        border-radius: 60px;
+
+}
+.iconspecial {
+        width: 100%;
+}
+.servicemain {
+        /* width: auto; */
+        height: auto;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding: 50px 5% 0 5%;
+}
+.servicesbox {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+}
+.services {
+
+        height: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: roboto-light;
+        font-size: 25px;
+}
+.servicesbox1 {
+        width: 50%;
+        position: relative;
+
+}
+.bestservices {
+        margin-top: 20px;
+        display: grid;
+        gap: 30px;
+}
+.bestservices1 {
+        box-sizing: border-box;
+        padding: 0 20px 0 20px;
+        width: 100%;
+        height: 170px;
+        color: #ffffff;
+        border-radius: 20px;
+        font-family: roboto-light;
+        background-image: linear-gradient(#35A9C0, #22c1d5);
+}
+.services1 {
+        font-family: segoe;
+}
+.doctorimg {
+        height: 580px;
+        z-index: 3;
+        top: 35px;
+        padding-left: 80px;
+        position: relative;
+
+}
+.doctorimgbg {
+        width: 355px;
+        height: 355px;
+        border-radius: 20px;
+        position: absolute;
+        right: 130px;
+        top: 94px;
+        background-image: linear-gradient(#35A9C0, #22c1d5);
+        transform: rotate(50deg);
+}
+.sub {
+        position: absolute;
+        height: 270px;
+        right: 125px;
+        top: 195px;
+}
+.doctor1 {
+        width: 427px;
+}
+.Doctorsmainbox {
+        height: auto;
+        padding-left: 5%;
+        margin-top: 90px;
+        background-color: #f8f8f8;
+        padding-right: 5%;
+
+}
+.sabmainbox {
+        height: auto;
+
+}
+.hed {
+        width: 100%;
+        padding-top: 15px;
+        text-align: center;
+        font-size: 25px;
+        font-family: roboto-light;
+        color: #29888f;
+}
+.doctors {
+        display: grid;
+        height: 250px;
+        gap: 10px;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+
+}
+.doctors1 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        flex-direction: column-reverse;
+}
+.samjohnimg {
+        overflow: hidden;
+        width: 100%;
+}
+.drsamjohn1 {
+        width: 70%;
+        height: 50px;
+        box-shadow: 12px 7px 1px #9f9c9c;
+        border-radius: 5px 40px 5px 40px;
+        text-align: center;
+        position: absolute;
+        font-family: roboto-medium;
+        padding-top: 13px;
+        box-sizing: border-box;
+        color: #ffffff;
+        background-color: #14cde6;
+}
+.owl-theme .owl-dots .owl-dot span {
+        margin: 30px 7px !important;
+}
+.drrosemary {
+        width: 70%;
+        height: 50px;
+        box-shadow: 12px 7px 1px #9f9c9c;
+        border-radius: 5px 40px 5px 40px;
+        text-align: center;
+        font-family: roboto-medium;
+        position: absolute;
+        padding-top: 13px;
+        box-sizing: border-box;
+        color: #ffffff;
+        background-color: #14cde6;
+}
+.rosemaryimg {
+        overflow: hidden;
+        width: 100%;
+}
+.drdeeparam {
+        width: 70%;
+        height: 50px;
+        box-shadow: 12px 7px 1px #9f9c9c;
+        border-radius: 5px 40px 5px 40px;
+        text-align: center;
+        font-family: roboto-medium;
+        color: #ffffff;
+        position: absolute;
+        padding-top: 13px;
+        box-sizing: border-box;
+        background-color: #14cde6;
+
+}
+.deeparamimg {
+        overflow: hidden;
+        width: 100%;
+}
+.footerminbox {
+        height: auto;
+        gap: 50px;
+        padding: 5%;
+        display: flex;
+        background-color: #000000;
+}
+.footerbox1 {
+        flex-grow: 1;
+        display: flex;
+        flex-basis: 25%;
+        flex-direction: column;
+        flex-wrap: wrap;
+}
+.footerlogo {
+        /* width: 30%; */
+        margin-bottom: 35px;
+        height: 55px;
+
+}
+.logofecare {
+        height: 50px;
+}
+.tagline {
+        font-size: 14px;
+        font-family: roboto-regular;
+        color: #ffffff;
+
+}
+.footericon {
+        margin-top: 60px;
+}
+.icon {
+        font-size: 14px;
+        color: #ffffff;
+        font-family: roboto-regular;
+}
+.informtion {
+        width: 80%;
+        height: 320px;
+        font-family: roboto-regular;
+        color: #ffffff;
+
+}
+.info {
+        font-size: 15px;
+        padding-left: 0;
+}
+.informtion ul li {
+        list-style: none;
+        font-size: 15px;
+        font-family: roboto-regular;
+        padding-top: 20px;
+}
+.helpfullinks {
+        width: 80%;
+        height: 320px;
+        font-family: roboto-regular;
+        color: #ffffff;
+
+}
+.helpfullinks ul li {
+        list-style: none;
+        padding-top: 20px;
+}
+
+
+@media screen and (max-width:1780px) {
+        .outerbox {
+                height: 533px;
+        }
+}
+@media screen and (max-width:1748px) {
+        .outerbox {
+                height: 495px;
+
+        }
+}
+@media screen and (max-width:1600px) {
+
+        .outerbox {
+                height: 464px;
+                right: 2px;
+        }
+}
+@media screen and (max-width:1429px) {
+        /*         
+       .textbox{
+        font-size: 32px;
+       }  */
+
+        .outerbox {
+                height: 436px;
+                right: 2px;
+        }
+}
+@media screen and (max-width:1370px) {
+        .textbox {
+                font-size: 30px;
+        }
+
+        .nav {
+                gap: 25px;
+        }
+
+
+}
+@media screen and (max-width:1340px) {
+        .doctorimgbg {
+                right: 75px;
+        }
+
+        .outerbox {
+                height: 360px;
+        }
+
+        .logo {
+                width: 9%;
+        }
+
+}
+@media screen and (max-width:1200px) {
+
+        .doctorimgbg {
+                right: 100px;
+
+        }
+
+        .doctorimg {
+                padding-left: 0;
+        }
+
+        .logo {
+                width: 9%;
+        }
+}
+@media screen and (max-width:1100px) {
+
+        .outerbox {
+                height: 290px;
+                right: 0;
+                top: -26px;
+        }
+
+}
+@media screen and (max-width:1023px){
+        .pictureboximg{
+                bottom: -41px;
+        }
+}
+@media screen and (max-width:1000px) {
+        .textbox {
+                font-size: 28px;
+        }
+        /* .pictureboximg{
+                bottom: -44px;
+        } */
+
+        .nav {
+                gap: 25px;
+        }
+
+        .outerbox {
+                width: 37%;
+                height: 280px;
+                top: -24px;
+                right: -1px;
+        }
+        .text1{
+                top: 77px;
+        }
+
+        .doctorimgbg {
+                display: none;
+        }
+
+        .navigation {
+                width: 70%;
+        }
+
+        .textbox {
+                width: 100%;
+                height: 100px;
+                font-size: 21px;
+        }
+
+        .fecare {
+                width: 100%;
+        }
+
+        .logo {
+                width: 10%;
+                height: 65px;
+                padding-top: 0;
+        }
+
+        .footerlogo {
+                margin-bottom: 15px;
+        }
+        .pictureboximg{
+                bottom: -4px;
+        }
+}
+@media screen and (max-width:1070px) {
+
+        .doctorimgbg {
+                width: 320px;
+                height: 320px;
+                right: 70px;
+        }
+
+}
+@media screen and (max-width:900px) {
+
+        .logo {
+                width: 13%;
+        }
+
+        .doctorimgbg {
+                display: none;
+        }
+
+}
+@media screen and (max-width:890px) {
+       .pictureboximg{
+              bottom: -26px;
+       }
+       .aboutfecare{
+        font-size: 14px;
+       }
+}
+@media screen and (max-width:840px) {
+
+        .aboutfecare {
+                font-size: 13px;
+        }
+
+        .logo {
+                width: 15%;
+        }
+
+        .outerbox {
+                height: 250px;
+        }
+
+        .doctorimgbg {
+                display: none;
+        }
+        .footerminbox{
+                gap: 40px;
+        }
+        .doctor1 {
+                width: 360px;
+            }
+        .doctorimg{
+                top: 100px;
+        }
+      
+        .solution1{
+                margin-top: 60px;
+        } 
+}
+@media screen and (max-width:800px) {
+
+        .picturebox {
+                display: none;
+        }
+
+        .doctorimgbg {
+                width: 355px;
+                height: 355px;
+                right: 161px;
+                top: 120px;
+                transform: rotate(46deg)
+        }
+        .pictureboximg{
+                display: none;
+        }
+
+        .servicesbox1 {
+                width: 100%;
+        }
+
+        .nav {
+                display: none;
+        }
+
+        .search {
+                display: none;
+        }
+
+        .logo {
+                width: 21%;
+        }
+
+        .tagline {
+                font-size: 9px;
+        }
+
+        .doctorimg {
+                padding-left: 0;
+        }
+
+        .footerlogo {
+                margin-bottom: 0;
+        }
+
+        .iconround {
+                width: 80px;
+                height: 80px;
+        }
+
+        .footericon {
+                margin-top: 50px;
+
+        }
+
+        .iconround1 {
+                width: 80px;
+                height: 80px;
+        }
+
+        .iconimg2 {
+                padding-left: 15px;
+                padding-top: 14px;
+        }
+
+        .textt {
+                font-size: 10px;
+        }
+
+        .icon {
+                font-size: 12px;
+        }
+
+        .footerminbox {
+                gap: 0;
+        }
+
+        .box1 {
+                top: 93px;
+                gap: 9px;
+        }
+
+        .info {
+                font-size: 11px;
+        }
+
+        .helpfullinks {
+                font-size: 11px;
+        }
+
+        .boxer {
+                width: 48%;
+        }
+
+        .servicesbox {
+                width: auto;
+        }
+
+        .informtion ul li {
+                font-size: 11px;
+        }
+
+        .servicemain {
+                display: flex;
+                flex-direction: column-reverse;
+        }
+
+        .informtion {
+                font-size: 11px;
+        }
+
+        .textbox {
+                justify-content: center;
+        }
+
+        .Follow {
+                font-size: 11px;
+        }
+
+        .outerbox {
+                height: 230px;
+                top: -19px;
+                right: -5px;
+        }
+
+        .texter {
+                position: relative;
+                bottom: 63px;
+        }
+
+        .finddoctor {
+                width: 47%;
+                margin-left: 8px;
+        }
+
+        .about {
+                width: 93%;
+        }
+
+        .speciality {
+                gap: 20px;
+        }
+
+        .doctor1 {
+                width: 340px;
+        }
+
+        .box {
+                width: 100%;
+                text-align: center;
+        }
+
+        .line {
+                margin-top: -13px;
+        }
+
+        .mainboxbanner {
+                padding-right: 5%;
+        }
+
+        .fecare {
+                width: 80%;
+        }
+
+        .iconspeciality {
+                width: 30%;
+        }
+
+        .logofecare {
+                height: 40px
+        }
+
+        .specialityhead {
+                font-size: 10px;
+        }
+        .text1{
+                top: 0;       
+         }
+}
+@media screen and (max-width:794px) {
+        .textbox {
+                width: auto;
+                height: 97px;
+                font-size: 17px;
+        }
+
+        .textt {
+                font-size: 12px;
+        }
+
+        .aboutfecare {
+                font-size: 10px;
+        }
+
+        .line {
+                margin-top: 0px;
+        }
+
+        .informtion {
+                font-size: 13px;
+        }
+
+        .helpfullinks {
+                font-size: 13px;
+        }
+}
+@media screen and (max-width:780px){
+        .pictureboximg{
+                bottom: -46px;
+        }
+
+} 
+@media screen and (max-width:750px) {
+        .outerbox {
+                height: 210px;
+        }
+}
+@media screen and (max-width:560px) {
+        .textt {
+             font-size: 9px;   
+        }
+        .aboutfecare{
+                font-size: 9px;     
+        }
+        .outerbox {
+                height: 170px;
+            }
+        .specialityhead{
+                font-size: 9px;   
+        }
+        .services2{
+                font-size: 10px;
+        }
+        .doctorimg{
+                top: 0;
+        }
+        .services{
+                padding-top: 0;
+        }
+}
+@media screen and (max-width:560px){
+        .outerbox{
+                height: 170px;
+        }
+}
+@media screen and (max-width:550px) {
+
+        .fecare {
+                width: 95%;
+        }
+
+        .box1 {
+                width: 100%;
+                padding: 0;
+                gap: 3px;
+        }
+
+        .menubar {
+                display: block;
+                padding: 25px;
+        }
+
+        .boxer {
+                width: 100%;
+                height: 45px;
+        }
+
+        .doctorimgbg {
+                display: none;
+        }
+
+        .finddoctor {
+                width: 100%;
+        }
+
+        .helpfullinks {
+                height: auto;
+        }
+
+        .services1 {
+                font-size: 13px;
+        }
+
+        .mainboxbanner {
+                padding-left: 10px;
+                padding-right: 10px;
+        }
+
+        .bestservices1 {
+                border-radius: 10px;
+        }
+
+        .services {
+                padding-bottom: 0;
+                padding-top: 0;
+                height: auto;
+                font-size: 23px;
+        }
+
+        .logo {
+                width: 20%;
+                height: 55px;
+        }
+
+        .picturebox {
+                display: none;
+        }
+
+        .bestdoctor {
+                height: auto;
+                grid-template-columns: auto;
+        }
+
+        .bodybox {
+                padding-top: 70px;
+        }
+
+        .footericon {
+                margin-top: 0;
+        }
+
+        .aboutfecare {
+                font-size: 13px;
+        }
+
+        .solution1 {
+                margin-top: 20px;
+                flex-direction: column;
+        }
+
+        .informtion {
+                width: auto;
+                height: 270px;
+        }
+
+        .footerlogo {
+                margin-bottom: 0;
+                height: auto;
+        }
+
+        .Follow {
+                margin-top: 20px;
+        }
+
+        .outerbox {
+                width: 43%;
+                height: 270px;
+                top: 56px;
+                right: 1px;
+        }
+
+        .footerbox1 {
+                text-align: center;
+                align-items: center;
+        }
+
+        .text1 {
+                width: 100%;
+                padding-top: 80px;
+                height: auto;
+        }
+
+        .speciality1 {
+                font-size: 20px;
+        }
+
+        .texter {
+                width: 100%;
+                height: auto;
+                text-align: center;
+                position: static;
+
+        }
+
+        .specialitybox {
+                grid-template-columns: auto;
+
+        }
+
+        .footerminbox {
+                flex-direction: column;
+                align-items: center;
+        }
+
+        .Doctorsmainbox {
+                margin-top: 50px;
+        }
+
+        .line {
+                margin-top: 60px;
+        }
+
+        .iconspeciality {
+                width: 20%;
+        }
+
+        .info {
+                padding-left: 0;
+        }
+
+        .textt {
+                font-size: 13px;
+        }
+}
+@media screen and (max-width:480px){
+        .outerbox{
+                height: 260px;
+               }
+}
+@media screen and (max-width:470px){
+        .outerbox{
+                height: 240px;
+               }
+}
+
+ @media screen and (max-width:430px) {
+
+       .logo{
+        width: 22%;
+        height: 40px;
+        padding-top: 14px;
+       }
+       .outerbox{
+        height: 260px;
+       }
+} 
+
+@media screen and (max-width:390px) {
+        .outerbox {
+            height: 220px; 
+            right: -4px;              
+        }
+}   
