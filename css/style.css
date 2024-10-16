@@ -1,3 +1,7 @@
+body {
+        overflow-x:hidden !important;
+}
+
 @font-face {
         font-family: roboto-regular;
         src: url(../fonts/Roboto-Regular.ttf);
@@ -23,6 +27,7 @@
         src: url(../fonts/Roboto-Black.ttf);
 }
 
+
 .header {
         height: 85px;
         background-color: #ffffff;
@@ -47,7 +52,7 @@
 
 
 .navigation {
-        width:50%;
+        width: 50%;
         height: 60px;
         background-color: #ffffff;
 }
@@ -97,13 +102,41 @@
         display: none;
 }
 
+.menubox {
+        width: 0px;
+        height: 100vh;
+        background-color: #ffffff;
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        display: none;
+
+}
+
+.navi {
+        display: flex;
+        gap: 30px;
+        list-style: none;
+        padding-top: 25px;
+        font-size: 18px;
+        font-family: roboto-regular;
+        flex-direction: column;
+
+}
+
+.backbutton {
+        padding-top: 30px;
+        padding-left: 50px;
+        border: none;
+        background: none;
+}
+
 .button {
         font-size: 26px;
         border: none;
         font-weight: 600;
         background: none;
 }
-
 
 .banner {
         width: 100%;
@@ -142,7 +175,6 @@
 }
 
 .textbox {
-
         font-family: roboto-black;
         font-size: 36px;
         display: flex;
@@ -376,14 +408,17 @@
         font-family: roboto-light;
         text-align: center;
 }
+
 .iconspeciality {
         width: 20%;
         border-radius: 60px;
 
 }
+
 .iconspecial {
         width: 100%;
 }
+
 .servicemain {
         /* width: auto; */
         height: auto;
@@ -392,11 +427,13 @@
         justify-content: center;
         padding: 50px 5% 0 5%;
 }
+
 .servicesbox {
         width: 50%;
         display: flex;
         flex-direction: column;
 }
+
 .services {
 
         height: 50px;
@@ -405,16 +442,19 @@
         font-family: roboto-light;
         font-size: 25px;
 }
+
 .servicesbox1 {
         width: 50%;
         position: relative;
 
 }
+
 .bestservices {
         margin-top: 20px;
         display: grid;
         gap: 30px;
 }
+
 .bestservices1 {
         box-sizing: border-box;
         padding: 0 20px 0 20px;
@@ -425,9 +465,11 @@
         font-family: roboto-light;
         background-image: linear-gradient(#35A9C0, #22c1d5);
 }
+
 .services1 {
         font-family: segoe;
 }
+
 .doctorimg {
         height: 580px;
         z-index: 3;
@@ -436,6 +478,7 @@
         position: relative;
 
 }
+
 .doctorimgbg {
         width: 355px;
         height: 355px;
@@ -446,15 +489,18 @@
         background-image: linear-gradient(#35A9C0, #22c1d5);
         transform: rotate(50deg);
 }
+
 .sub {
         position: absolute;
         height: 270px;
         right: 125px;
         top: 195px;
 }
+
 .doctor1 {
         width: 427px;
 }
+
 .Doctorsmainbox {
         height: auto;
         padding-left: 5%;
@@ -463,10 +509,12 @@
         padding-right: 5%;
 
 }
+
 .sabmainbox {
         height: auto;
 
 }
+
 .hed {
         width: 100%;
         padding-top: 15px;
@@ -475,6 +523,7 @@
         font-family: roboto-light;
         color: #29888f;
 }
+
 .doctors {
         display: grid;
         height: 250px;
@@ -482,16 +531,19 @@
         grid-template-columns: 33.33% 33.33% 33.33%;
 
 }
+
 .doctors1 {
         display: flex;
         align-items: center;
         margin-bottom: 30px;
         flex-direction: column-reverse;
 }
+
 .samjohnimg {
         overflow: hidden;
         width: 100%;
 }
+
 .drsamjohn1 {
         width: 70%;
         height: 50px;
@@ -505,9 +557,11 @@
         color: #ffffff;
         background-color: #14cde6;
 }
+
 .owl-theme .owl-dots .owl-dot span {
         margin: 30px 7px !important;
 }
+
 .drrosemary {
         width: 70%;
         height: 50px;
@@ -521,10 +575,12 @@
         color: #ffffff;
         background-color: #14cde6;
 }
+
 .rosemaryimg {
         overflow: hidden;
         width: 100%;
 }
+
 .drdeeparam {
         width: 70%;
         height: 50px;
@@ -539,10 +595,12 @@
         background-color: #14cde6;
 
 }
+
 .deeparamimg {
         overflow: hidden;
         width: 100%;
 }
+
 .footerminbox {
         height: auto;
         gap: 50px;
@@ -550,6 +608,7 @@
         display: flex;
         background-color: #000000;
 }
+
 .footerbox1 {
         flex-grow: 1;
         display: flex;
@@ -557,29 +616,35 @@
         flex-direction: column;
         flex-wrap: wrap;
 }
+
 .footerlogo {
         /* width: 30%; */
         margin-bottom: 35px;
         height: 55px;
 
 }
+
 .logofecare {
         height: 50px;
 }
+
 .tagline {
         font-size: 14px;
         font-family: roboto-regular;
         color: #ffffff;
 
 }
+
 .footericon {
         margin-top: 60px;
 }
+
 .icon {
         font-size: 14px;
         color: #ffffff;
         font-family: roboto-regular;
 }
+
 .informtion {
         width: 80%;
         height: 320px;
@@ -587,16 +652,19 @@
         color: #ffffff;
 
 }
+
 .info {
         font-size: 15px;
         padding-left: 0;
 }
+
 .informtion ul li {
         list-style: none;
         font-size: 15px;
         font-family: roboto-regular;
         padding-top: 20px;
 }
+
 .helpfullinks {
         width: 80%;
         height: 320px;
@@ -604,6 +672,7 @@
         color: #ffffff;
 
 }
+
 .helpfullinks ul li {
         list-style: none;
         padding-top: 20px;
@@ -615,12 +684,14 @@
                 height: 533px;
         }
 }
+
 @media screen and (max-width:1748px) {
         .outerbox {
                 height: 495px;
 
         }
 }
+
 @media screen and (max-width:1600px) {
 
         .outerbox {
@@ -628,6 +699,7 @@
                 right: 2px;
         }
 }
+
 @media screen and (max-width:1429px) {
         /*         
        .textbox{
@@ -639,6 +711,7 @@
                 right: 2px;
         }
 }
+
 @media screen and (max-width:1370px) {
         .textbox {
                 font-size: 30px;
@@ -650,6 +723,7 @@
 
 
 }
+
 @media screen and (max-width:1340px) {
         .doctorimgbg {
                 right: 75px;
@@ -664,6 +738,7 @@
         }
 
 }
+
 @media screen and (max-width:1200px) {
 
         .doctorimgbg {
@@ -679,6 +754,7 @@
                 width: 9%;
         }
 }
+
 @media screen and (max-width:1100px) {
 
         .outerbox {
@@ -688,15 +764,18 @@
         }
 
 }
-@media screen and (max-width:1023px){
-        .pictureboximg{
+
+@media screen and (max-width:1023px) {
+        .pictureboximg {
                 bottom: -41px;
         }
 }
+
 @media screen and (max-width:1000px) {
         .textbox {
                 font-size: 28px;
         }
+
         /* .pictureboximg{
                 bottom: -44px;
         } */
@@ -711,7 +790,8 @@
                 top: -24px;
                 right: -1px;
         }
-        .text1{
+
+        .text1 {
                 top: 77px;
         }
 
@@ -742,10 +822,12 @@
         .footerlogo {
                 margin-bottom: 15px;
         }
-        .pictureboximg{
+
+        .pictureboximg {
                 bottom: -4px;
         }
 }
+
 @media screen and (max-width:1070px) {
 
         .doctorimgbg {
@@ -755,6 +837,7 @@
         }
 
 }
+
 @media screen and (max-width:900px) {
 
         .logo {
@@ -766,14 +849,17 @@
         }
 
 }
+
 @media screen and (max-width:890px) {
-       .pictureboximg{
-              bottom: -26px;
-       }
-       .aboutfecare{
-        font-size: 14px;
-       }
+        .pictureboximg {
+                bottom: -26px;
+        }
+
+        .aboutfecare {
+                font-size: 14px;
+        }
 }
+
 @media screen and (max-width:840px) {
 
         .aboutfecare {
@@ -791,20 +877,24 @@
         .doctorimgbg {
                 display: none;
         }
-        .footerminbox{
+
+        .footerminbox {
                 gap: 40px;
         }
+
         .doctor1 {
                 width: 360px;
-            }
-        .doctorimg{
+        }
+
+        .doctorimg {
                 top: 100px;
         }
-      
-        .solution1{
+
+        .solution1 {
                 margin-top: 60px;
-        } 
+        }
 }
+
 @media screen and (max-width:800px) {
 
         .picturebox {
@@ -818,13 +908,26 @@
                 top: 120px;
                 transform: rotate(46deg)
         }
-        .pictureboximg{
+
+        .pictureboximg {
                 display: none;
         }
 
         .servicesbox1 {
                 width: 100%;
         }
+
+        .menubar {
+                display: block;
+                background: none;
+                border: none;
+                font-size: 18px;
+        }
+
+        .menubox {
+                display: block;
+        }
+
 
         .nav {
                 display: none;
@@ -885,6 +988,7 @@
         .box1 {
                 top: 93px;
                 gap: 9px;
+                
         }
 
         .info {
@@ -980,10 +1084,12 @@
         .specialityhead {
                 font-size: 10px;
         }
-        .text1{
-                top: 0;       
-         }
+
+        .text1 {
+                top: 0;
+        }
 }
+
 @media screen and (max-width:794px) {
         .textbox {
                 width: auto;
@@ -1011,45 +1117,56 @@
                 font-size: 13px;
         }
 }
-@media screen and (max-width:780px){
-        .pictureboximg{
+
+@media screen and (max-width:780px) {
+        .pictureboximg {
                 bottom: -46px;
         }
 
-} 
+}
+
 @media screen and (max-width:750px) {
         .outerbox {
                 height: 210px;
         }
 }
+
 @media screen and (max-width:560px) {
         .textt {
-             font-size: 9px;   
+                font-size: 9px;
         }
-        .aboutfecare{
-                font-size: 9px;     
+
+        .aboutfecare {
+                font-size: 9px;
         }
+
         .outerbox {
                 height: 170px;
-            }
-        .specialityhead{
-                font-size: 9px;   
         }
-        .services2{
+
+        .specialityhead {
+                font-size: 9px;
+        }
+
+        .services2 {
                 font-size: 10px;
         }
-        .doctorimg{
+
+        .doctorimg {
                 top: 0;
         }
-        .services{
+
+        .services {
                 padding-top: 0;
         }
 }
-@media screen and (max-width:560px){
-        .outerbox{
+
+@media screen and (max-width:560px) {
+        .outerbox {
                 height: 170px;
         }
 }
+
 @media screen and (max-width:550px) {
 
         .fecare {
@@ -1058,14 +1175,10 @@
 
         .box1 {
                 width: 100%;
-                padding: 0;
+                padding: 10px;
                 gap: 3px;
         }
 
-        .menubar {
-                display: block;
-                padding: 25px;
-        }
 
         .boxer {
                 width: 100%;
@@ -1209,32 +1322,35 @@
                 font-size: 13px;
         }
 }
-@media screen and (max-width:480px){
-        .outerbox{
+
+@media screen and (max-width:480px) {
+        .outerbox {
                 height: 260px;
-               }
+        }
 }
-@media screen and (max-width:470px){
-        .outerbox{
+
+@media screen and (max-width:470px) {
+        .outerbox {
                 height: 240px;
-               }
+        }
 }
 
- @media screen and (max-width:430px) {
+@media screen and (max-width:430px) {
 
-       .logo{
-        width: 22%;
-        height: 40px;
-        padding-top: 14px;
-       }
-       .outerbox{
-        height: 260px;
-       }
-} 
+        .logo {
+                width: 22%;
+                height: 40px;
+                padding-top: 14px;
+        }
+
+        .outerbox {
+                height: 260px;
+        }
+}
 
 @media screen and (max-width:390px) {
         .outerbox {
-            height: 220px; 
-            right: -4px;              
+                height: 220px;
+                right: -4px;
         }
-}   
+}

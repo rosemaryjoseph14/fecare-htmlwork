@@ -5,7 +5,7 @@
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fecare</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
         rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
@@ -39,13 +39,33 @@
             </div>
             <div class="sea"></div>
 
-            <div class="menubar">
+            <button class="menubar" onclick="menufn()">
                 <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        <div class="menubox">
+            <button class="backbutton" onclick="backfn()">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="navigations">
+
+                <ul class="navi">
+                    <li>Hospitals</li>
+                    <li>Treatments</li>
+                    <li>Service</li>
+                    <li>Appointment</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <div class="search">
+
+                <button class="button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
             </div>
         </div>
-
-
-
 
         <div class="mainboxbanner">
             <div class="box">
@@ -178,10 +198,10 @@
                 <div class="specialityhead">
                     <h2>Easy Booking</h2>
                 </div>
-                    <p class="services2">Designed with simplicity in mind,Easy!
-                        Appointments feels directly familiar
-                        and is easy to get started with.</p>
-                
+                <p class="services2">Designed with simplicity in mind,Easy!
+                    Appointments feels directly familiar
+                    and is easy to get started with.</p>
+
             </div>
 
 
@@ -192,9 +212,9 @@
                 <div class="specialityhead">
                     <h2>Time Saving</h2>
                 </div>
-                    <p class="services2">Schedule a doctor's appointment
-                        in under 10 minutes</p>
-                
+                <p class="services2">Schedule a doctor's appointment
+                    in under 10 minutes</p>
+
             </div>
             <div class="special">
                 <div class="iconspeciality">
@@ -203,9 +223,9 @@
                 <div class="specialityhead">
                     <h2>24hr Doctors Consultation</h2>
                 </div>
-                    <p class="services2">Consult a doctor via audio/video
-                        anytime</p>
-                
+                <p class="services2">Consult a doctor via audio/video
+                    anytime</p>
+
             </div>
         </div>
     </div>
@@ -399,6 +419,28 @@
                 }
             }
         })
+
+
+        function menufn() {
+
+
+            var menubox = document.querySelector(".menubox")
+            menubox.style.width = "70%";
+            menubox.style.transition = "all .5s";
+             menubox.style.right = "0px";
+
+
+        }
+
+        function backfn() {
+
+            var menubox1 = document.querySelector(".menubox")
+            menubox1.style.transition = "all .5s";
+             menubox1.style.right = "-612px";
+           
+
+        }
+
     </script>
 </body>
 
