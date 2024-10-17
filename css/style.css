@@ -154,7 +154,7 @@ body {
 }
 
 .box {
-        gap: 39px;
+        /* gap: 39px; */
         display: flex;
         width: 60%;
         flex-direction: column;
@@ -188,7 +188,6 @@ body {
         height: 100%;
 
 }
-
 .pictureboximg {
         width: 100%;
         min-width: 100%;
@@ -309,11 +308,10 @@ body {
         height: 40px;
         border-radius: 5px;
         margin-top: 20px;
-        background-color: #0398ee;
-        color: #ffffff;
-        border: none;
+        border: 3px solid #35A9C0;
+        color: #000000;
+        /* border: none; */
 }
-
 .text1 {
         width: 50%;
         /* background-color:#d95d9b; */
@@ -942,9 +940,9 @@ body {
                 width: 21%;
         }
 
-        .tagline {
+        /* .tagline {
                 font-size: 9px;
-        }
+        } */
 
         .doctorimg {
                 padding-left: 0;
@@ -974,13 +972,13 @@ body {
                 padding-top: 14px;
         }
 
-        .textt {
+        /* .textt {
                 font-size: 10px;
-        }
+        } */
 
-        .icon {
+        /* .icon {
                 font-size: 12px;
-        }
+        } */
 
         .footerminbox {
                 gap: 0;
@@ -992,13 +990,13 @@ body {
                 
         }
 
-        .info {
+        /* .info {
                 font-size: 11px;
-        }
-
+        } */
+/* 
         .helpfullinks {
                 font-size: 11px;
-        }
+        } */
 
         .boxer {
                 width: 48%;
@@ -1007,27 +1005,27 @@ body {
         .servicesbox {
                 width: auto;
         }
-
+/* 
         .informtion ul li {
                 font-size: 11px;
-        }
+        } */
 
         .servicemain {
                 display: flex;
                 flex-direction: column-reverse;
         }
 
-        .informtion {
+        /* .informtion {
                 font-size: 11px;
-        }
+        } */
 
         .textbox {
                 justify-content: center;
         }
 
-        .Follow {
+        /* .Follow {
                 font-size: 11px;
-        }
+        } */
 
         .outerbox {
                 height: 230px;
@@ -1095,28 +1093,28 @@ body {
         .textbox {
                 width: auto;
                 height: 97px;
-                font-size: 17px;
+                /* font-size: 17px; */
         }
 
-        .textt {
+        /* .textt {
                 font-size: 12px;
-        }
+        } */
 
-        .aboutfecare {
+        /* .aboutfecare {
                 font-size: 10px;
-        }
+        } */
 
         .line {
                 margin-top: 0px;
         }
-
+/* 
         .informtion {
                 font-size: 13px;
-        }
+        } */
 
-        .helpfullinks {
+        /* .helpfullinks {
                 font-size: 13px;
-        }
+        } */
 }
 
 @media screen and (max-width:780px) {
@@ -1133,25 +1131,25 @@ body {
 }
 
 @media screen and (max-width:560px) {
-        .textt {
+        /* .textt {
                 font-size: 9px;
-        }
-
+        } */
+/* 
         .aboutfecare {
                 font-size: 9px;
-        }
+        } */
 
         .outerbox {
                 height: 170px;
         }
 
-        .specialityhead {
+        /* .specialityhead {
                 font-size: 9px;
-        }
+        } */
 
-        .services2 {
+        /* .services2 {
                 font-size: 10px;
-        }
+        } */
 
         .doctorimg {
                 top: 0;
@@ -1159,12 +1157,6 @@ body {
 
         .services {
                 padding-top: 0;
-        }
-}
-
-@media screen and (max-width:560px) {
-        .outerbox {
-                height: 170px;
         }
 }
 
@@ -1198,9 +1190,9 @@ body {
                 height: auto;
         }
 
-        .services1 {
+        /* .services1 {
                 font-size: 13px;
-        }
+        } */
 
         .mainboxbanner {
                 padding-left: 10px;
@@ -1215,7 +1207,7 @@ body {
                 padding-bottom: 0;
                 padding-top: 0;
                 height: auto;
-                font-size: 23px;
+                /* font-size: 23px; */
         }
 
         .logo {
@@ -1240,9 +1232,9 @@ body {
                 margin-top: 0;
         }
 
-        .aboutfecare {
+        /* .aboutfecare {
                 font-size: 13px;
-        }
+        } */
 
         .solution1 {
                 margin-top: 20px;
@@ -1251,7 +1243,7 @@ body {
 
         .informtion {
                 width: auto;
-                height: 270px;
+                height: 300px;
         }
 
         .footerlogo {
@@ -1280,10 +1272,10 @@ body {
                 padding-top: 80px;
                 height: auto;
         }
-
+/* 
         .speciality1 {
                 font-size: 20px;
-        }
+        } */
 
         .texter {
                 width: 100%;
@@ -1319,9 +1311,9 @@ body {
                 padding-left: 0;
         }
 
-        .textt {
+        /* .textt {
                 font-size: 13px;
-        }
+        } */
 }
 
 @media screen and (max-width:480px) {
