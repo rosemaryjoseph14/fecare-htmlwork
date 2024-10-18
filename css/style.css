@@ -854,16 +854,16 @@ body {
                 bottom: -26px;
         }
 
-        .aboutfecare {
+        /* .aboutfecare {
                 font-size: 14px;
-        }
+        } */
 }
 
 @media screen and (max-width:840px) {
 
-        .aboutfecare {
+        /* .aboutfecare {
                 font-size: 13px;
-        }
+        } */
 
         .logo {
                 width: 15%;
@@ -1080,9 +1080,9 @@ body {
                 height: 40px
         }
 
-        .specialityhead {
+        /* .specialityhead {
                 font-size: 10px;
-        }
+        } */
 
         .text1 {
                 top: 0;
